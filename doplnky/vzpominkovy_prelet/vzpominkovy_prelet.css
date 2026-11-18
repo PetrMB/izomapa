@@ -1,0 +1,18 @@
+/* Doplněk „Vzpomínkový přelet“ – barvy z proměnných mapy */
+.vp-btn { font-size: 1.1rem; }
+.vp-karta { position: fixed; right: 16px; bottom: calc(env(safe-area-inset-bottom, 0px) + 84px); z-index: 6; width: min(420px, calc(100% - 32px));
+  max-height: 60vh; overflow: auto; background: var(--panel, #1d2230); color: var(--ink, #eee); border: 2px solid var(--lamp, #f2c66d);
+  padding: 12px 16px; font: 15px/1.45 var(--body, sans-serif); box-sizing: border-box; }
+.vp-karta h3 { margin: 0 28px 8px 0; font: 700 17px var(--display, sans-serif); }
+.vp-karta p { margin: 0 0 8px; }
+.vp-karta dl { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; margin: 0 0 8px; }
+.vp-karta dt { opacity: .7; } .vp-karta dd { margin: 0; }
+.vp-stav { font-weight: 700; }
+.vp-akce { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.vp-akce a { color: inherit; }
+.vp-x { position: absolute; right: 8px; top: 4px; background: none; border: 0; color: inherit; font-size: 1.5rem; cursor: pointer; }
+.vp-lista { position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + 16px); transform: translateX(-50%); z-index: 6;
+  max-width: calc(100% - 32px); background: var(--panel, #1d2230); color: var(--ink, #eee); border: 2px solid var(--lamp, #f2c66d);
+  padding: 8px 44px 8px 14px; font: 14px var(--body, sans-serif); box-sizing: border-box; }
+.vp-lista .vp-x { top: 0; }
+.vp-karta[hidden], .vp-lista[hidden] { display: none; }

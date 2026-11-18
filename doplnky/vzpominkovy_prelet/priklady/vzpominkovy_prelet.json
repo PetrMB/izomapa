@@ -1,0 +1,17 @@
+{
+  "letoun": "wellington",
+  "nazev": "Wellington 311. perutě RAF",
+  "stitek": "Wellington · 311. peruť RAF",
+  "tlacitko": "Vzpomínkový přelet Wellingtonu",
+  "trasa": [[50.39985, 14.89770], [50.41250, 14.90500]],
+  "vyska": 240,
+  "rychlost_kmh": 235,
+  "interval_min": [15, 25],
+  "jen_ve_dne": true,
+  "pribeh": {
+    "titulek": "Wellington 311. perutě – Vladimír Slánský",
+    "text": "Vzpomínkový přelet na počest boleslavského rodáka Vladimíra Slánského (1913–1993). Za války byl pilotem 311. československé bombardovací perutě RAF, která létala na bombardérech Vickers Wellington; se 45 operačními lety (213 hodin) byl druhým nejúspěšnějším příslušníkem perutě. Po válce létal u ČSA, v roce 1950 byl za přípravu emigrace odsouzen k pěti letům vězení. V roce 1991 dostal Řád Milana Rastislava Štefánika, v roce 1992 čestné občanství Mladé Boleslavi. Přelet je ilustrační.",
+    "zdroj": "https://cs.wikipedia.org/wiki/Vladimír_Slánský",
+    "radky": [["Rodák", "Vladimír Slánský (30. 7. 1913 – 24. 8. 1993)"], ["Peruť", "311. čs. bombardovací peruť RAF"], ["Letoun", "Vickers Wellington (ilustrační)"]]
+  }
+}

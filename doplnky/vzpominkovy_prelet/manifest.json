@@ -1,0 +1,10 @@
+{
+  "id": "vzpominkovy_prelet",
+  "name": "Vzpomínkový přelet",
+  "version": "1.0.0",
+  "description": "Historický letoun (Vickers Wellington) občas přeletí nad městem na počest místního letce. Štítek se jménem, karta s příběhem, tlačítko pro spuštění přeletu a sledování letounu pohledem.",
+  "hook": "overlay_hook.py",
+  "scripts": ["vzpominkovy_prelet.js"],
+  "styles": ["vzpominkovy_prelet.css"],
+  "defaults": {}
+}
